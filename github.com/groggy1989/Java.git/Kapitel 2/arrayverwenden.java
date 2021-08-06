@@ -3,18 +3,20 @@
  * bmi= Körpergewicht/Körpergröße ²
  * forschleife
  */
-class forSchleife {
+class arrayverwenden {
 
 	public static void main(String[] args) {
 	
 		double groesse = .51;
-		for(double gewicht = 4.0; gewicht < 7.0; gewicht = gewicht +0.2) {
+		System.out.println("gewicht\t, groesse\t, bmi\t");
+		double[] gewicht = {4.0,4.2,4.4,4.6,4.8,5.0,5.2,5.4,5.6,5.8,6.0,6.2,6.4,6.6,6.8,};
+		for(int index=0; index < 15; index++) {
 			
-				double bmi = gewicht / (groesse*groesse);
+				double bmi = gewicht[index] / (groesse*groesse);
 				
-				System.out.println("gewicht\t, groesse\t, bmi\t");
+				
 				System.out.printf(
-						" %.2f\t%.2f\t%.2f\t", gewicht, groesse, bmi);
+						" %.2f\t%.2f\t%.2f\t", gewicht[index], groesse, bmi);
 				
 				
 						int i=((bmi >=25) ? 1 : ((bmi < 18)? -1 : 0));

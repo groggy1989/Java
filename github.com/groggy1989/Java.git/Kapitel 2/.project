@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Kapitel2</name>
+			<type>2</type>
+			<location>C:/Users/Torst/Documents/Java Lernen/Grund1/Kapitel2</location>
+		</link>
+	</linkedResources>
 </projectDescription>
